@@ -1,0 +1,26 @@
+{
+  "name": "isles-of-yum",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "validate": "node scripts/validate-content.mjs",
+    "build": "npm run validate && npx @11ty/eleventy",
+    "serve": "npx @11ty/eleventy --serve",
+    "narrate": "node audio-pipeline/narrate.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "The Isles of Yum — a story world and writing project for Felix & Alex.",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.6",
+    "fast-glob": "^3.3.3",
+    "gray-matter": "^4.0.3",
+    "music-metadata": "^11.13.0",
+    "vitest": "^4.1.10"
+  }
+}
