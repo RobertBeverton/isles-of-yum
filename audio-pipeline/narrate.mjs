@@ -154,15 +154,17 @@ export function getArgValue(args, flag, defaultValue) {
 async function main() {
   const [, , storyPath, ...rest] = process.argv;
   if (!storyPath) {
-    console.error("Usage: node audio-pipeline/narrate.mjs <story.md> --voice-map <voice_map.json> --out <out.mp3>");
+    console.error("Usage: node audio-pipeline/narrate.mjs <story.md> [--voice-map <voice_map.json>] [--out <out.mp3>]");
     process.exit(1);
   }
   const voiceMapPath = getArgValue(rest, "--voice-map", "audio-pipeline/voice_map.json");
-  const outPath = getArgValue(rest, "--out", undefined);
-  if (!outPath) {
-    console.error("Missing --out <path.mp3>");
-    process.exit(1);
-  }
+  // Defaults to the story's own basename, colocated in the same folder
+  // (e.g. stories/marzipans-well.md -> stories/marzipans-well.mp3) — the
+  // naming convention the site relies on to auto-detect a story's audio
+  // (see scripts/stories-lib.mjs). --out only needs to be passed to
+  // deliberately override that default.
+  const defaultOutPath = storyPath.replace(/\.md$/, ".mp3");
+  const outPath = getArgValue(rest, "--out", defaultOutPath);
 
   let voiceMap;
   try {

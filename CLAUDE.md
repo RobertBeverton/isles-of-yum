@@ -27,6 +27,15 @@ multi-voice MP3 via ElevenLabs. Requires `ELEVENLABS_API_KEY` env var and real
 voice IDs in `audio-pipeline/voice_map.json` (ships with placeholders). Never
 runs in CI — local only. See `audio-pipeline/SPEC.md` for the design.
 
+**Story/audio filenames must match.** The site derives a story's audio file
+from its own filename: `stories/some-story.md` plays `stories/some-story.mp3`,
+colocated in the same folder — no front matter needed. If a story hasn't been
+narrated yet, just don't add the mp3 (`npm run validate` will say so as a
+warning, not a failure). Only add an explicit `audio: "other-name.mp3"` field
+when the audio genuinely can't share the story's filename; add `audio: false`
+to silence the warning for a story that will never get narration. Never rename
+one side (the `.md` or the `.mp3`) without renaming the other to match.
+
 This repo is intentionally separate from the `Stories` repo (Felix & Alex's
 Bramble Wall / Trio Force shared-canon world) — different canon, different
 process, kept apart so neither pollutes the other's context.

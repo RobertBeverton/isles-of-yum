@@ -65,12 +65,22 @@ story, not worth a unique voice for a single line.
 ## Output
 - One MP3 per batch from the API, saved in order.
 - Concatenate all batches into a single final MP3 per story (e.g. via `ffmpeg`
-  concat) — final filename matches the story, e.g. `08_Marzipans_Well.mp3`.
+  concat) — final filename and location MUST match the story's own file
+  exactly: `stories/marzipans-well.md` produces `stories/marzipans-well.mp3`,
+  same basename, same folder. The site derives a story's audio purely from its
+  own filename (see `scripts/stories-lib.mjs`), so this is not just a style
+  preference — a mismatched name means the story silently shows no audio
+  player. Never carry over any different naming style (numbered prefixes,
+  underscores, title case) from source material like an imported PDF/ebook.
 
 ## Suggested CLI shape
 ```
-python narrate.py stories/08_Marzipans_Well.md --voice-map voice_map.json --out audio/08_Marzipans_Well.mp3
+node audio-pipeline/narrate.mjs stories/marzipans-well.md
 ```
+`--out` defaults to the story's own basename next to the `.md` file (here,
+`stories/marzipans-well.mp3`) — the naming convention the site relies on to
+auto-detect audio. Pass `--out` explicitly only to deliberately override that.
+`--voice-map` defaults to `audio-pipeline/voice_map.json`.
 
 ## Open decisions for whoever builds this in Claude Code
 - Confirm ElevenLabs plan/tier supports the character volume needed (check
