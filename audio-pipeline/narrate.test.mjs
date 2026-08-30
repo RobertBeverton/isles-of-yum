@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { parseScenes, splitIntoTurns, flagLowConfidence, mergeAdjacentTurns, packBatches } from "./narrate.mjs";
+import { parseScenes, splitIntoTurns, flagLowConfidence, mergeAdjacentTurns, packBatches, getArgValue } from "./narrate.mjs";
 
 describe("parseScenes", () => {
   it("splits on scene-break lines", () => {
@@ -33,6 +33,33 @@ describe("splitIntoTurns", () => {
     const text = `"Where did it go?"`;
     const turns = splitIntoTurns(text);
     expect(turns[0].confident).toBe(false);
+  });
+
+  it("does not misattribute speaker from a capitalized word inside the quote (Bug 1)", () => {
+    const text = `"I said no," Felix said.`;
+    const turns = splitIntoTurns(text);
+    expect(turns).toEqual([
+      { speaker: "FELIX", text, confident: true },
+    ]);
+  });
+
+  it("does not split on a period inside a title abbreviation like Mr. (Bug 2)", () => {
+    const text = `"Wait," said Mr. Smith, "not yet."`;
+    const turns = splitIntoTurns(text);
+    // The sentence must not be truncated at "Mr." — it should remain one
+    // whole turn containing both quoted spans, not two turns where the
+    // second ('Smith, "not yet."') is missing its opening context.
+    expect(turns).toHaveLength(1);
+    expect(turns[0].text).toBe(text);
+    expect(turns[0].confident).toBe(true);
+  });
+
+  it("handles a sentence with two separate quoted spans", () => {
+    const text = `Felix said, "Yes, I did," then paused before adding "so there."`;
+    const turns = splitIntoTurns(text);
+    expect(turns).toHaveLength(1);
+    expect(turns[0].speaker).toBe("FELIX");
+    expect(turns[0].confident).toBe(true);
   });
 });
 
@@ -89,5 +116,29 @@ describe("packBatches", () => {
     const batches = packBatches(turns, 1800);
     expect(batches).toHaveLength(1);
     expect(batches[0]).toHaveLength(2);
+  });
+
+  it("returns an empty array for no turns", () => {
+    expect(packBatches([])).toEqual([]);
+  });
+});
+
+describe("getArgValue", () => {
+  it("returns the value following the flag when present", () => {
+    expect(getArgValue(["--voice-map", "custom.json"], "--voice-map", "default.json")).toBe("custom.json");
+  });
+
+  it("returns the default when the flag is absent (Bug 3)", () => {
+    // Regression for: rest[rest.indexOf(flag) + 1] silently returns rest[0]
+    // (the wrong arg) when the flag isn't present, because indexOf gives -1.
+    expect(getArgValue(["--out", "story.mp3"], "--voice-map", "default.json")).toBe("default.json");
+  });
+
+  it("returns the default when the flag is the last element with no following value", () => {
+    expect(getArgValue(["--voice-map"], "--voice-map", "default.json")).toBe("default.json");
+  });
+
+  it("returns undefined when the flag is absent and no default is given", () => {
+    expect(getArgValue(["--voice-map", "x.json"], "--out", undefined)).toBeUndefined();
   });
 });

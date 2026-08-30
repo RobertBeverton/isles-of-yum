@@ -6,6 +6,20 @@ import { pathToFileURL } from "node:url";
 
 const SCENE_BREAK = /\n\s*•\s*•\s*•\s*\n/g;
 const DIALOGUE_TAG = /\b(?:said|asked|whispered|shouted|replied|cut in|added)\s+([A-Z][a-zA-Z]*)|\b([A-Z][a-zA-Z]*)\s+(?:said|asked|whispered|shouted|replied)\b/;
+// Title abbreviations that end in a period but never end a sentence, e.g.
+// "said Mr. Smith". Used as a negative lookbehind so the sentence splitter
+// doesn't treat that period as a sentence boundary.
+const TITLE_ABBREVIATIONS = ["Mr", "Mrs", "Ms", "Dr", "St", "Jr", "Sr"];
+const ABBREV_LOOKBEHIND = TITLE_ABBREVIATIONS.join("|");
+// Same shape as the original /[^.!?]+[.!?]+(\s|$)/g, except a run of
+// terminators is only accepted once it contains at least one terminator
+// that is NOT a period directly after a title abbreviation (e.g. "Mr.").
+const SENTENCE_SPLIT = new RegExp(
+  `[^.!?]+(?:[!?]|(?<!\\b(?:${ABBREV_LOOKBEHIND}))\\.)+(\\s|$)`,
+  "g"
+);
+// Real API ceiling is 2000 chars (see SPEC.md); 1800 leaves safety headroom.
+const MAX_BATCH_CHARS = 1800;
 
 export function parseScenes(markdown) {
   return markdown
@@ -20,7 +34,7 @@ export function parseScenes(markdown) {
 // sentence; a sentence with a quote but no resolvable tag is flagged
 // low-confidence rather than guessed.
 export function splitIntoTurns(text) {
-  const sentences = text.match(/[^.!?]+[.!?]+(\s|$)/g) ?? [text];
+  const sentences = text.match(SENTENCE_SPLIT) ?? [text];
   return sentences.map((raw) => {
     const sentence = raw.trim();
     if (!sentence) return null;
@@ -28,7 +42,13 @@ export function splitIntoTurns(text) {
     if (!hasQuote) {
       return { speaker: "NARRATOR", text: sentence, confident: true };
     }
-    const match = sentence.match(DIALOGUE_TAG);
+    // The dialogue tag ("said Felix", "Felix said") always appears in the
+    // narration text surrounding a quote, never inside it — so search for
+    // the tag only in what's left after the quoted span(s) are removed.
+    // Otherwise a capitalized word inside the quote itself (e.g. "I" in
+    // `"I said no," Felix said.`) can be mistaken for the speaker's name.
+    const outsideQuotes = sentence.replace(/"[^"]*"/g, " ");
+    const match = outsideQuotes.match(DIALOGUE_TAG);
     const name = match ? (match[1] || match[2]) : null;
     if (!name) {
       return { speaker: null, text: sentence, confident: false };
@@ -62,7 +82,7 @@ export function mergeAdjacentTurns(turns) {
 
 // Greedily packs turns into batches whose summed text length stays under
 // maxChars, never splitting a single turn across two batches.
-export function packBatches(turns, maxChars = 1800) {
+export function packBatches(turns, maxChars = MAX_BATCH_CHARS) {
   const batches = [];
   let current = [];
   let currentLen = 0;
@@ -99,7 +119,12 @@ async function callElevenLabs(batch, voiceMap, apiKey, cacheDir) {
   }
   const buffer = Buffer.from(await res.arrayBuffer());
   fs.mkdirSync(cacheDir, { recursive: true });
-  fs.writeFileSync(cachePath, buffer);
+  // Write to a temp path and rename into place, so a process kill mid-write
+  // never leaves a corrupt file at cachePath that a later run would treat
+  // as a valid cache hit (rename is atomic on the same filesystem).
+  const tempPath = `${cachePath}.tmp`;
+  fs.writeFileSync(tempPath, buffer);
+  fs.renameSync(tempPath, cachePath);
   return cachePath;
 }
 
@@ -109,9 +134,21 @@ function concatWithFfmpeg(mp3Paths, outPath) {
   fs.writeFileSync(listPath, listContent);
   try {
     execFileSync("ffmpeg", ["-y", "-f", "concat", "-safe", "0", "-i", listPath, "-c", "copy", outPath]);
+  } catch (err) {
+    throw new Error(`ffmpeg failed (is it installed and on PATH?): ${err.message}`);
   } finally {
     fs.unlinkSync(listPath);
   }
+}
+
+// Returns the value following `flag` in `args`, or `defaultValue` when the
+// flag is absent or has nothing after it. Using indexOf + 1 directly (as
+// the original code did) silently returns the wrong argument when the flag
+// isn't found, because indexOf returns -1 and args[-1 + 1] === args[0].
+export function getArgValue(args, flag, defaultValue) {
+  const i = args.indexOf(flag);
+  if (i === -1 || i + 1 >= args.length) return defaultValue;
+  return args[i + 1];
 }
 
 async function main() {
@@ -120,15 +157,28 @@ async function main() {
     console.error("Usage: node audio-pipeline/narrate.mjs <story.md> --voice-map <voice_map.json> --out <out.mp3>");
     process.exit(1);
   }
-  const voiceMapPath = rest[rest.indexOf("--voice-map") + 1] ?? "audio-pipeline/voice_map.json";
-  const outPath = rest[rest.indexOf("--out") + 1];
+  const voiceMapPath = getArgValue(rest, "--voice-map", "audio-pipeline/voice_map.json");
+  const outPath = getArgValue(rest, "--out", undefined);
   if (!outPath) {
     console.error("Missing --out <path.mp3>");
     process.exit(1);
   }
 
-  const voiceMap = JSON.parse(fs.readFileSync(voiceMapPath, "utf8"));
-  const markdown = fs.readFileSync(storyPath, "utf8").replace(/^---[\s\S]*?---\n/, "");
+  let voiceMap;
+  try {
+    voiceMap = JSON.parse(fs.readFileSync(voiceMapPath, "utf8"));
+  } catch (err) {
+    console.error(`Failed to read voice map at ${voiceMapPath}: ${err.message}`);
+    process.exit(1);
+  }
+
+  let markdown;
+  try {
+    markdown = fs.readFileSync(storyPath, "utf8").replace(/^---[\s\S]*?---\n/, "");
+  } catch (err) {
+    console.error(`Story file not found: ${storyPath}`);
+    process.exit(1);
+  }
 
   const scenes = parseScenes(markdown);
   const allTurns = scenes.flatMap((scene) => splitIntoTurns(scene));
@@ -144,7 +194,7 @@ async function main() {
   }
 
   const merged = mergeAdjacentTurns(allTurns);
-  const batches = packBatches(merged, 1800);
+  const batches = packBatches(merged, MAX_BATCH_CHARS);
 
   const apiKey = process.env.ELEVENLABS_API_KEY;
   if (!apiKey) {
@@ -154,12 +204,22 @@ async function main() {
 
   const cacheDir = path.join(path.dirname(outPath), ".narrate-cache");
   const batchPaths = [];
-  for (const [i, batch] of batches.entries()) {
-    console.log(`Generating batch ${i + 1}/${batches.length}...`);
-    batchPaths.push(await callElevenLabs(batch, voiceMap, apiKey, cacheDir));
+  try {
+    for (const [i, batch] of batches.entries()) {
+      console.log(`Generating batch ${i + 1}/${batches.length}...`);
+      batchPaths.push(await callElevenLabs(batch, voiceMap, apiKey, cacheDir));
+    }
+  } catch (err) {
+    console.error(`Failed to generate audio via ElevenLabs: ${err.message}`);
+    process.exit(1);
   }
 
-  concatWithFfmpeg(batchPaths, outPath);
+  try {
+    concatWithFfmpeg(batchPaths, outPath);
+  } catch (err) {
+    console.error(err.message);
+    process.exit(1);
+  }
 
   const { parseFile } = await import("music-metadata");
   const metadata = await parseFile(outPath);
