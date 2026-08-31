@@ -1,11 +1,11 @@
 ---
-title: "The Map-Maker's Map (Part One)"
+title: "Map Maker"
 description: "Felix and Alex meet Nib, a map-maker finishing her late mother's chart of the Isles, and set off to fix two islands that have mysteriously faded from the page."
 tags: ["adventure", "islands", "map", "new-character", "jeopardy"]
-islands: ["Nib's sandwich island", "Spaghetti Bolognese Island", "Roast Dinner Isle"]
-keyIslands: ["Nib's sandwich island", "Spaghetti Bolognese Island", "Roast Dinner Isle"]
+islands: ["Sandwich island", "Spaghetti Bolognese Island", "Roast Dinner Isle"]
+keyIslands: ["Sandwich island", "Spaghetti Bolognese Island", "Roast Dinner Isle"]
 characters: ["Nib"]
-series: "The Map-Maker's Map"
+series: "Nib's Map"
 seriesOrder: 1
 publishDate: 2026-01-06
 draft: false
