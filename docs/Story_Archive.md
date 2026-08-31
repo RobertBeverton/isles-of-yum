@@ -25,65 +25,7 @@ A running log of every story written in this world, in order, with a short summa
 
 ---
 
-## 2. Ice Cream Land
-**Cast:** Felix, Alex, Elfine, Marion. **Length:** ~1,250 words. **Islands Featured:** Ice Cream Land (primary, first appearance).
-**Summary:** Felix can't resist tasting a house made of ice cream and accidentally eats most of it. No villain — the problem is his own mistake, resolved by facing the family he wronged and physically helping rebuild, rather than running or magically fixing it.
-
-**What worked:**
-- Proved a full, satisfying story doesn't need a villain at all — a child's own mistake, honestly faced and fixed, carried the whole arc.
-- Very tight word count (under 1,000 originally, then extended) still delivered a complete arc — good evidence that length is about what the story needs, not a target to hit.
-- The chase scene, once extended on request, gave every one of the four kids a distinct active moment (fork-in-the-lane call, bridge crossing, syrup gag, the moral pivot) — a good model for how to fairly distribute a group set-piece.
-
-**What to watch for next time:**
-- The first version of the chase was too brief to build real excitement — worth deliberately asking "does this set-piece have room to breathe" rather than rushing to the resolution.
-- A reference to the jigsaw piece being "propped against a cone-tree" was written before that action was ever shown happening — caught on review, but a reminder to plant physical props the moment they're introduced, not only when they're first needed.
-
----
-
-## 3. Chocolate Land
-**Cast:** Felix, Alex, Mummy. **Length:** ~1,450 words. **Islands Featured:** Chocolate Land (primary, first appearance — Milk/Dark/White villages).
-**Summary:** Three chocolate villages (milk, dark, white) have stopped working together and their shared festival fountain can't be finished. The kids get all three talking again; a physical collapse mid-build gives Mummy a real, honest fear-based moment.
-
-**What worked:**
-- First story to use a "social/fairness" problem between groups rather than a single villain or a single mistake — a good demonstration that the non-villain toolkit has range.
-- Deliberately smaller 3-person cast (no cousins) forced Alex to carry real narrative weight without anyone to bounce off — good proof the format survives a smaller cast if handled carefully.
-- Added a "vindication" beat late in review (the milk chocolate villager owning her earlier dismissive comment) rather than letting an unkind line go uncorrected — good instinct to check that every unresolved unkindness gets addressed by the end, not just papered over by teamwork.
-
-**What to watch for next time:**
-- With only 3 characters, watch that the sole adult doesn't end up with a disproportionate share of dialogue purely because there are fewer people to distribute lines to.
-
----
-
-## 4. The Biscuit Bridge
-**Cast:** Felix, Alex, Elfine, Marion (no adult). **Length:** ~1,150 words. **Islands Featured:** Biscuit Town (primary, first appearance), Fluffy Candy Fields (passing, source of the rope).
-**Summary:** A broken bridge cuts off Biscuit Town's crumble delivery before a shared sundae deadline. The "walk around" plan is ruled out for being too slow; a candy-floss rope bridge is built instead, with Felix nearly slipping mid-crossing.
-
-**What worked:**
-- Fully kid-solved with zero adult presence — good proof the format doesn't need a parent on-page to carry emotional weight or safety.
-- Clean two-attempt structure (ruled-out plan, then the real plan) gave a natural, satisfying "first idea wasn't wrong, just not right for this" affirmation without stating it as a moral until the very end.
-- Every character's job was distinct and well-balanced on the first pass, needing only one small strengthening edit (Alex's flaw-spotting moment) rather than a structural rework — the tightest single review-to-final gap of any story so far.
-
-**What to watch for next time:**
-- Alex's contribution in early drafts was a little thin (agreeing with Elfine rather than reasoning independently) — worth double-checking Alex specifically gets an independent noticing beat, not just a supporting line, since this has come up more than once across stories.
-
----
-
-## 5. The Right Order
-**Cast:** Felix, Alex, Elfine, Marion. **Length:** ~1,570 words (plus a separate interactive "choose-together" version built from the same material).
-**Islands Featured:** Strawberry Hill (primary), Biscuit Town (primary, revisit), Chocolate Ice-Cream Cove (primary, first appearance).
-**Summary:** Three simultaneous problems (bees at Strawberry Hill, an overheating oven at Biscuit Town, melting ice cream at Chocolate Cove) must be solved in a specific order, since two of them require materials sourced from the third location. A pure logic-puzzle structure with no villain.
-
-**What worked:**
-- First story built around an explicit, followable logic puzzle rather than a single obstacle — proved this format works well and is a good vehicle for Elfine's established puzzle-solving trait.
-- The interactive "choose-together" adaptation (same skeleton, paused at decision points, wrong choices trigger an in-world time-rewind rather than a dead end) turned out to be a strong reusable format — the rewind mechanic kept wrong guesses low-stakes and encouraged trying again rather than feeling like failure.
-- Breaking a long single-paragraph exposition dump into a back-and-forth question-and-answer exchange (a live editing fix) markedly improved read-aloud pacing — a good general technique for any scene that has to convey several facts at once.
-
-**What to watch for next time:**
-- The initial explanation of all three simultaneous problems was delivered as one large monologue from the messenger character — worth writing multi-fact exposition as dialogue from the start next time, rather than fixing it after a full draft exists.
-
----
-
-## 6. The Map-Maker's Map (Part One)
+## 2. The Map-Maker's Map (Part One)
 **Cast:** Felix, Alex, Elfine, Marion + new recurring character Nib. **Length:** first attempt ~1,400 words (judged too thin); revised to ~2,430 words.
 **Islands Featured:** Nib's sandwich island (primary, first appearance), Spaghetti Bolognese Island (primary, first appearance), Roast Dinner Isle (primary, first appearance).
 **Summary:** Introduces Nib, a map-maker finishing her late mother's unfinished chart of the Isles. Two islands (Spaghetti Bolognese Island, Roast Dinner Isle) have faded from her map and need fixing; a near-drowning in a gravy river gives the story its jeopardy; the story ends on a genuine cliffhanger (an unrecognised symbol tied to Nib's mother).
@@ -98,7 +40,7 @@ A running log of every story written in this world, in order, with a short summa
 
 ---
 
-## 7. The Great Kitchen (Part Two)
+## 3. The Great Kitchen (Part Two)
 **Cast:** Felix, Alex, Elfine, Marion + Nib. **Length:** ~2,830 words, written and reviewed in five sections rather than as one pass.
 **Islands Featured:** Nib's sandwich island (passing, bookends), the Unmapped waters/mistake-islets (primary, first appearance — burnt toast, single-strawberry islet, steam-teapot), The Great Kitchen (primary, first appearance).
 **Summary:** Pays off Part One's cliffhanger. The symbol marks the mythical Great Kitchen, source of every island in the Isles, which Nib's late mother spent her life trying to reach. A riddle-locked door, a journey through "mistake islands," and the discovery of the mother's wooden spoon resolve Nib's fear that she failed to live up to her mother's legacy — reframed instead as a deliberate, loving handover.
@@ -113,7 +55,7 @@ A running log of every story written in this world, in order, with a short summa
 
 ---
 
-## 8. Marzipan's Well
+## 4. Marzipan's Well
 **Cast:** Felix, Alex (no other family present). **Length:** ~1,650 words. **Islands Featured:** Satin Slopes / Rattlenut Rocks (primary, first appearance, single split island).
 **Summary:** A nodding well between two feuding almond-butter villages (smooth-finish Satin Slopes vs. crunchy-finish Rattlenut Rocks) turns out to be worked from below by Marzipan, an enormous, unhurried sloth who has tended the shared spring for both villages, unthanked and unvisited, for longer than anyone can remember. Alex investigates alone and discovers Marzipan; a riddle delivered to both villages back on the surface gets them to realise who's really been "in every batch" — resolving both the villages' feud and Marzipan's quiet loneliness in the same beat.
 **What worked:**
@@ -124,3 +66,19 @@ A running log of every story written in this world, in order, with a short summa
 **What to watch for next time:**
 - First draft had Felix go essentially silent for the entire ~75-line emotional core of the cavern scene (Marzipan's "nobody's ever asked" beat) despite being physically present — fixed on review by adding one small, wordless, physical Felix beat (leaning against Marzipan) rather than giving him a line that would have stepped on Alex's ownership of the insight. Worth checking any two-hander scene for this specific failure mode: a present-but-silent character during the story's emotional peak.
 - The Marzipan/Felix interleaved dialogue beat ("Nobody's really ever—" / Felix's interruption / "...asked," Marzipan continuing) is the single hardest passage in the story to read aloud cold or split cleanly for multi-voice narration — flagged for extra attention at the `audio-narration-prep` stage specifically, not just general review.
+
+---
+
+## 9. Toffee Apple Orchard
+**Cast:** Felix, Alex (no other family present). **Length:** ~1,550 words. **Islands Featured:** Toffee Apple Orchard (primary, first appearance), Amberdrift (primary, first appearance — new wandering-island device, born mid-story).
+**Summary:** A jammed toffee vat floods part of the orchard; the boys evacuate every picker except Toffit, who knowingly chooses to stay with his trees. When the boys' own dam-building rescue attempt fails, Toffit builds and climbs into a toffee shell of his own making — a real, witnessed gamble, not a guaranteed plan — moments before the patch sinks. The patch surfaces again as Amberdrift, a new free-floating island, with Toffit alive inside the shell and about to become its travelling toffee-seller.
+**What worked:**
+- First use of the new World Guide craft rule 2a (the "unfixable loss, reframed rather than undone" exception): the *place* (the orchard patch) is the thing genuinely, permanently lost — the boys try everything and it still isn't enough — and that loss is resolved by reframing (Amberdrift) rather than fixing, a new affirmation shape for the series ("you can do everything right and it still won't go how you wanted, and that can still turn out okay").
+- Deliberately the widest tension-flavour spread of any single-location standalone so far: wonder/arrival → mystery → diagnosis → organisational/evacuation → physical problem-solving → real loss/grief → mystery-relief → warmth/character reveal → quiet reflection, with no two adjacent beats repeating.
+- Toffit's refusal to evacuate was added on review specifically so the loss would carry real human stakes, not just a place — an explicit choice not to write around ordinary human stubbornness ("there will always be people who don't want to leave their home, or listen to reason"). Planting his refusal during the evacuation (rather than revealing it only at the reveal) let his later survival land as relief rather than a fresh surprise.
+- Produced a new recurring world device (Amberdrift, a free-floating island that's never in the same spot twice) and a new lightly-sketched recurring character (Toffit, now a travelling toffee-seller) in one story, both logged to the World Guide.
+
+**What to watch for next time:**
+- First draft had Toffit simply "go under with it" and resurface explained by an offstage detail (clung to a tree) the reader never saw — caught on a second review pass as a fake-out: it stated a person was lost, then explained the loss away with an unwitnessed trick, which undercut the honesty rule 2a depends on. Fixed by showing him build and climb into a toffee shell on-page, in front of the boys, before the patch goes under — real, witnessed risk with a visible mechanism, not a solemn "he's gone" beat that gets quietly reversed. Worth checking any future rule 2a story for this specific failure mode: if a beat plays as loss, don't let the undoing be something the reader wasn't shown.
+- Craft rule 2a is an occasional exception, not a new default — the next few stories should return to the standard "effort resolves the jeopardy" pattern rather than reaching for the unfixed-loss shape again right away, or it will stop feeling special.
+- The sink-to-surface sequence needed to stay tight (one continuous scene, no narrative distance) to keep the devastation beat from tipping into lingering dread for a young listener — worth the same discipline in any future use of rule 2a.

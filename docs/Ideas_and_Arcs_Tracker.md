@@ -11,7 +11,7 @@ A checklist companion to the World Guide, Islands Index, and Story Archive. Tick
 
 ## STANDALONE STORY SEEDS (single-episode, no long-arc weight required)
 
-- [ ] Toffee Apple Orchard — sticky "getting stuck" jeopardy, obvious-plan-fails/smarter-plan-works puzzle (rocking free vs. pulling straight out)
+- [x] Toffee Apple Orchard — used in Story #9, "Toffee Apple Orchard" (developed well beyond the original seed: a jammed toffee vat and real, failed rescue attempt sink part of the orchard and one resident with it, before it surfaces as Amberdrift, a new wandering island — first use of new World Guide craft rule 2a)
 - [ ] Pizza Port — harbour/trading-post hub, cheese-pull rope bridges, pepperoni-coin currency
 - [ ] Marshmallow Marsh — cosy fireside/toasting theme, communal fire-lighting mechanic, shy marsh-keeper who thinks nobody cares anymore
 - [ ] Sherbet Shoals / Fizzy Pop Falls — fizzing rockpools, a tireless Fizz-Keeper who needs help sharing the load
@@ -19,6 +19,10 @@ A checklist companion to the World Guide, Islands Index, and Story Archive. Tick
 - [ ] Weetabix & Honey Hollow — Felix's personal-favourite morning island; cosy, golden, good "home base" location
 - [ ] Peanut Butter Toast Isle — Alex's personal-favourite; comforting, could pair well with a quieter/character-focused story
 - [ ] Lemon & Sugar Pancake Falls — shared family favourite; suits a celebratory opener/finale rather than a problem-of-the-week
+- [ ] **Ice Cream Land** — Felix can't resist tasting a house made of ice cream and accidentally eats most of it; no villain, resolved by facing the family he wronged and physically helping rebuild rather than running or magically fixing it. A child's-own-mistake story (no investigation, no culprit to find). Cast idea: Felix, Alex, Elfine, Marion. Chase set-piece should give all four kids a distinct active moment (fork-in-the-lane call, bridge crossing, syrup gag, moral pivot) and be given room to breathe rather than rushed. *(Previously drafted and reviewed in an earlier session, but the story text itself was lost before being committed — archive entry removed 2026-08-31; this seed preserves the developed shape so it can be rewritten.)*
+- [ ] **Chocolate Land** — Three chocolate villages (milk, dark, white) have stopped working together and their shared festival fountain can't be finished; the kids get all three talking again, with a physical collapse mid-build giving an adult a real, honest fear-based moment. A group-vs-group social rift resolved by kids mediating between factions. Cast idea: Felix, Alex, Mummy (deliberately small 3-person cast — watch that the sole adult doesn't get a disproportionate share of dialogue just because there are fewer people to distribute lines to). Include a "vindication" beat — an unkind line from earlier explicitly owned/corrected by the character who said it, not just papered over by teamwork. *(Same loss as Ice Cream Land above — archive entry removed 2026-08-31.)*
+- [ ] **The Biscuit Bridge** — A broken bridge cuts off Biscuit Town's crumble delivery before a shared sundae deadline; the "walk around" plan is ruled out for being too slow, so a candy-floss rope bridge is built instead, with a near-slip mid-crossing for jeopardy. Pure practical problem, two-attempt engineering puzzle, no antagonist. Cast idea: Felix, Alex, Elfine, Marion — no adult on-page. Give Alex an independent noticing/flaw-spotting beat rather than just agreeing with Elfine. Islands: Biscuit Town (primary), Fluffy Candy Fields (passing, source of the rope). *(Same loss as above — archive entry removed 2026-08-31.)*
+- [ ] **The Right Order** — Three simultaneous problems (bees at Strawberry Hill, an overheating oven at Biscuit Town, melting ice cream at Chocolate Ice-Cream Cove) must be solved in a specific order since two require materials sourced from the third. Pure logic-sequencing puzzle, no antagonist, no investigation — a strong vehicle for Elfine's puzzle-solving trait. Deliver any multi-fact exposition as back-and-forth dialogue from the start rather than one messenger monologue. Also seeded a reusable interactive "choose-together" format: paused at decision points, wrong choices trigger an in-world time-rewind rather than a dead end (see FORMAT VARIANTS below). Cast idea: Felix, Alex, Elfine, Marion. *(Same loss as above — archive entry removed 2026-08-31.)*
 
 ## MISCHIEF-MAKER STORY SEEDS (see World Guide craft rule 1a for full pattern)
 
@@ -40,10 +44,11 @@ A checklist companion to the World Guide, Islands Index, and Story Archive. Tick
 - [ ] A second slow-burn "seed" object/phrase (parallel to the map symbol) planted across multiple stories before its meaning is revealed
 - [ ] More Great Kitchen "mistake islands" recurring or getting their own rescue story (burnt toast, single-strawberry islet, steam-teapot)
 - [ ] The Frozen Fruit Sound — smoothie/slushy travel-route sea (strawberry, mango, peach, watermelon, raspberry, grape, pineapple currents) used as connective texture between islands rather than a destination
+- [ ] Amberdrift (introduced in Story #9) — a free-floating island that's never in the same spot twice; a future story could have the kids specifically go looking for it (rather than sailing to a fixed place), or have it turn up unannounced as a texture beat elsewhere
 
 ## FORMAT VARIANTS TO REUSE
 
-- [ ] Another interactive "choose together" story built around a genuine order-dependent puzzle
+- [ ] Another interactive "choose together" story built around a genuine order-dependent puzzle — the rewind mechanic (wrong choices trigger an in-world time-rewind rather than a dead end) from the original "The Right Order" interactive adaptation is worth reusing wholesale
 - [ ] Another multi-part serialized arc with its own character motor running underneath the episodic adventures
 
 ---
