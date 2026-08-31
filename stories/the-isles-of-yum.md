@@ -3,6 +3,7 @@ title: "The Isles of Yum"
 description: "Felix and Alex's first trip through the jigsaw piece, into a sea of food-shaped islands threatened by a storm no one can explain — caused by a cloud nobody ever thinks to thank."
 tags: ["adventure", "islands", "first-visit", "storm", "kindness"]
 islands: ["Fish Finger Reef", "Beans-on-Toast Bay", "Chocolate Mountain", "Candy Floss Clouds", "Strawberry Hill", "Frozen Mango Isle"]
+keyIslands: ["Fish Finger Reef", "Candy Floss Clouds"]
 publishDate: 2026-01-01
 seriesOrder: 1
 draft: false

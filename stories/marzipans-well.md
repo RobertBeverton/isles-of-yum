@@ -3,6 +3,8 @@ title: "Marzipan's Well"
 description: "Felix and Alex follow a nodding well down into an island split between two feuding almond-butter villages, and find out who's been working it, unthanked, the whole time."
 tags: ["adventure", "islands", "well", "almonds", "kindness"]
 islands: ["Satin Slopes", "Rattlenut Rocks"]
+keyIslands: ["Satin Slopes", "Rattlenut Rocks"]
+characters: ["Marzipan"]
 publishDate: 2026-08-30
 draft: true
 ---

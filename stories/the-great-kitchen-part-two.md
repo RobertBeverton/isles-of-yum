@@ -3,6 +3,8 @@ title: "The Great Kitchen (Part Two)"
 description: "Nib and the children sail past the edge of every known map to a riddle-locked door, chasing the mystery of the mythical place her mother spent her life trying to find."
 tags: ["adventure", "islands", "mystery", "riddle", "grief", "legacy"]
 islands: ["Nib's sandwich island", "the Unmapped waters", "The Great Kitchen"]
+keyIslands: ["The Great Kitchen"]
+characters: ["Nib"]
 series: "The Map-Maker's Map"
 seriesOrder: 2
 publishDate: 2026-01-07
