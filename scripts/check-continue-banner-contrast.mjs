@@ -1,14 +1,14 @@
 import { pathToFileURL } from "node:url";
 import { PALETTE } from "./accent-colors.mjs";
 
-// The homepage arc/standalone group band background (site/assets/style.css's
-// .rail-group-content rule) mixes each accent color at BAND_MIX_PERCENT into
-// the page background behind the group's heading, lozenges, and story rows —
-// this script is the enforced version of that contrast claim, mirroring
-// check-wave-contrast.mjs's pattern, so a future palette/token edit that
-// breaks contrast fails a check instead of silently shipping unreadable
-// text.
-export const BAND_MIX_PERCENT = 0.35;
+// The continue-banner's colored background (site/assets/style.css's
+// .continue-banner.has-accent rule) mixes each accent color at
+// CONTINUE_BANNER_MIX_PERCENT into the page background behind the "Continue"
+// label and story title — this script is the enforced version of that
+// contrast claim, mirroring check-wave-contrast.mjs/check-band-contrast.mjs's
+// pattern, so a future palette/token edit that breaks contrast fails a check
+// instead of silently shipping unreadable text.
+export const CONTINUE_BANNER_MIX_PERCENT = 0.4;
 const CONTRAST_FLOOR = 4.5; // WCAG AA for normal-size text
 
 const PAPER = { light: "#faf3e7", dark: "#1c1a17" };
@@ -39,10 +39,11 @@ export function contrastRatio(c1, c2) {
   return (lighter + 0.05) / (darker + 0.05);
 }
 
-// Checks every PALETTE accent color's band-mixed background against the
-// page's own text color, in both light and dark color-scheme, and returns
-// one violation string per failing combination (empty array = all pass).
-export function checkBandContrast(palette, mixPercent = BAND_MIX_PERCENT) {
+// Checks every PALETTE accent color's continue-banner-mixed background
+// against the page's own text color, in both light and dark color-scheme,
+// and returns one violation string per failing combination (empty array =
+// all pass).
+export function checkContinueBannerContrast(palette, mixPercent = CONTINUE_BANNER_MIX_PERCENT) {
   const violations = [];
   for (const { background } of palette) {
     for (const scheme of ["light", "dark"]) {
@@ -59,12 +60,12 @@ export function checkBandContrast(palette, mixPercent = BAND_MIX_PERCENT) {
 }
 
 function main() {
-  const violations = checkBandContrast(PALETTE);
+  const violations = checkContinueBannerContrast(PALETTE);
   if (violations.length > 0) {
-    console.error("Band background contrast check failed:\n" + violations.map((v) => `  - ${v}`).join("\n"));
+    console.error("Continue-banner background contrast check failed:\n" + violations.map((v) => `  - ${v}`).join("\n"));
     process.exit(1);
   }
-  console.log(`Band background contrast OK for all ${PALETTE.length} palette colors at ${Math.round(BAND_MIX_PERCENT * 100)}% mix (light + dark mode).`);
+  console.log(`Continue-banner background contrast OK for all ${PALETTE.length} palette colors at ${Math.round(CONTINUE_BANNER_MIX_PERCENT * 100)}% mix (light + dark mode).`);
 }
 
 if (import.meta.url === pathToFileURL(process.argv[1]).href) {
