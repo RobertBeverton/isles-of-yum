@@ -133,7 +133,7 @@ function concatWithFfmpeg(mp3Paths, outPath) {
   const listContent = mp3Paths.map((p) => `file '${path.resolve(p).replace(/'/g, "'\\''")}'`).join("\n");
   fs.writeFileSync(listPath, listContent);
   try {
-    execFileSync("ffmpeg", ["-y", "-f", "concat", "-safe", "0", "-i", listPath, "-c", "copy", outPath]);
+    execFileSync("ffmpeg", ["-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", listPath, "-c", "copy", outPath]);
   } catch (err) {
     throw new Error(`ffmpeg failed (is it installed and on PATH?): ${err.message}`);
   } finally {

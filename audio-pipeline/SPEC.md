@@ -90,3 +90,31 @@ auto-detect audio. Pass `--out` explicitly only to deliberately override that.
   just get logged as warnings (faster iteration).
 - Decide on a minor-character voice strategy (shared generic voice vs. folding
   into narrator) and record the decision here once made.
+
+## Alternative: single-voice narration (`narrate-single-voice.mjs`)
+For stories not worth the multi-voice setup (or before `voice_map.json` has
+real voice IDs filled in), `audio-pipeline/narrate-single-voice.mjs` uses the
+plain **Text to Speech** endpoint (`POST /v1/text-to-speech/{voice_id}`) with
+one voice for the whole story — this mirrors the ElevenLabs web UI's
+PDF-upload narration workflow (single voice reading straight through), but
+produces one finished MP3 via the API instead of a manual per-section export.
+
+- `eleven_multilingual_v2`'s real per-request ceiling is ~10,000 characters —
+  far higher than Text to Dialogue's 2,000, so most stories in this project
+  (~1,000–3,000 words) fit in a **single API call**, no chunking needed.
+- For longer stories, text is packed into chunks at scene-break (`• • •`)
+  boundaries first, falling back to sentence boundaries only if a single
+  scene exceeds the limit — never splitting mid-sentence.
+- Consecutive chunks use ElevenLabs' **request stitching**
+  (`previous_request_ids`) so the voice's pacing/prosody carries across the
+  join, avoiding an audible seam at the cut point.
+- Chunks are concatenated into one final MP3 via `ffmpeg`, same as the
+  multi-voice path, and saved under the same story-filename-matching rule.
+
+Usage:
+```
+node audio-pipeline/narrate-single-voice.mjs stories/marzipans-well.md
+```
+Defaults to Amelia (`ZF6FPAbjXT4488VcRRnw`) and `eleven_multilingual_v2`.
+Override with `--voice-id <id>`, `--model-id <id>`, `--out <out.mp3>`.
+Requires `ELEVENLABS_API_KEY`, same as the multi-voice script.
