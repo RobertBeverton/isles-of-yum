@@ -110,3 +110,17 @@ A running log of every story written in this world, in order, with a short summa
 
 **What to watch for next time:**
 - This story's emotional stakes (grief, legacy) run considerably heavier than anything before it in the series — worth deliberately checking future high-concept emotional stories against the "does this still feel like Isles of Yum" tone bar, since ambition can pull a story toward a heavier register than the world's baseline warmth without anyone deciding that on purpose.
+
+---
+
+## 8. Marzipan's Well
+**Cast:** Felix, Alex (no other family present). **Length:** ~1,650 words. **Islands Featured:** Satin Slopes / Rattlenut Rocks (primary, first appearance, single split island).
+**Summary:** A nodding well between two feuding almond-butter villages (smooth-finish Satin Slopes vs. crunchy-finish Rattlenut Rocks) turns out to be worked from below by Marzipan, an enormous, unhurried sloth who has tended the shared spring for both villages, unthanked and unvisited, for longer than anyone can remember. Alex investigates alone and discovers Marzipan; a riddle delivered to both villages back on the surface gets them to realise who's really been "in every batch" — resolving both the villages' feud and Marzipan's quiet loneliness in the same beat.
+**What worked:**
+- No jeopardy beat at all, and no adult on-page — proved the two-hander (Felix + Alex only) format can carry a full, satisfying story on tension-type variety alone (mystery → social tension → mystery → emotional beat → problem-to-solve → resolution), with no two adjacent beats sharing a flavour.
+- Established Felix's worry-almond/fidget-object device and his "interrupt-and-guess-wrong" joke (used exactly twice, always with an explicit dialogue tag like "Felix cut in" so it survives single-voice narration) — both now recorded as reusable Felix traits in the character-voice-guide reference.
+- Alex investigating and solving almost entirely independently (climbing down alone, having the key emotional conversation, delivering the riddle) is a strong, true beat for his established "reserved observer who commits fully once he's worked out the shape of things" arc.
+
+**What to watch for next time:**
+- First draft had Felix go essentially silent for the entire ~75-line emotional core of the cavern scene (Marzipan's "nobody's ever asked" beat) despite being physically present — fixed on review by adding one small, wordless, physical Felix beat (leaning against Marzipan) rather than giving him a line that would have stepped on Alex's ownership of the insight. Worth checking any two-hander scene for this specific failure mode: a present-but-silent character during the story's emotional peak.
+- The Marzipan/Felix interleaved dialogue beat ("Nobody's really ever—" / Felix's interruption / "...asked," Marzipan continuing) is the single hardest passage in the story to read aloud cold or split cleanly for multi-voice narration — flagged for extra attention at the `audio-narration-prep` stage specifically, not just general review.

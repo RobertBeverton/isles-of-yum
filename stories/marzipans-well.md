@@ -5,15 +5,15 @@ tags: ["adventure", "islands", "well", "almonds", "kindness"]
 islands: ["Satin Slopes", "Rattlenut Rocks"]
 keyIslands: ["Satin Slopes", "Rattlenut Rocks"]
 characters: ["Marzipan"]
-publishDate: 2026-08-30
-draft: true
+publishDate: 2026-08-31
+draft: false
 ---
 
 The sea had been perfectly ordinary blue-green for ages, and then, without anyone quite noticing the exact moment it happened, it wasn't.
 
 "Alex," said Felix, resting his oar across his knees, "the water's gone weird."
 
-It had. It was thickening around the little rowing boat, turning paler and warmer-looking with every stroke, blue-green fading up into a heavy, glowing ivory-gold, like the whole sea was slowly stirring itself into a very large cup of tea. The waves had changed too — instead of chopping and slapping against the hull, they rolled, slow and round-shouldered, the way something thick moves instead of something thin. Rowing through it took real effort now, the oars dragging heavier with every pull, like stirring a spoon through something only just pourable.
+It had. It was thickening around the little rowing boat, turning paler and warmer-looking with every stroke, blue-green fading up into a heavy, glowing ivory-gold, like the whole sea was slowly stirring itself into a very large cup of tea. Rowing through it took real effort now, the oars dragging heavier with every pull, like stirring a spoon through something only just pourable.
 
 "It's not weird," said Alex, who had been watching it happen for the last several minutes with great interest, and was rowing more slowly than Felix to make it easier going. "It's changing on purpose. Watch — there."
 
@@ -138,6 +138,8 @@ Marzipan carried on as though the interruption had simply not happened. "...aske
 Nobody said anything for a moment. Even Felix, who usually had something to say about everything, didn't.
 
 "That's not the same as being sad about it, mind," Marzipan added, a little more briskly, as though worried they'd made too much of it. "I do like the quiet. I chose it, this, down here. I just hadn't noticed, until just now, saying it out loud, that liking your own company and never once being asked about it are two rather different things."
+
+Felix, who did not always have the right words but usually had the right instincts, shuffled a little closer and leaned his whole self against Marzipan's side, the way he did with Mummy when words felt like too much effort. He didn't say anything. He didn't need to.
 
 Alex thought about that for a long moment, the way he thought about most things — properly, without rushing it. Beside him, the nodding post paused a fraction longer than usual before lifting again, as if Marzipan were thinking it over too.
 
