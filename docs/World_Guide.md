@@ -31,6 +31,9 @@ A reference for writing new Felix & Alex stories (with supporting cousins/friend
 - **Toffee Apple Orchard** — rows of apple trees dipped whole (trunk, branches, leaves) in a shining amber toffee shell, with real apples underneath. Has one harvest day a year when every dipped apple ripens at once. Fed by a toffee vat and channel system that coats the trees; a jam in that system was the origin of **Amberdrift** (see below).
 - **Amberdrift** — a small, free-floating island, born when a heavy, toffee-flooded patch of Toffee Apple Orchard broke away and sank, then resurfaced as its own detached piece of land. Never in the same spot twice — it drifts with the currents rather than being steered to a fixed place. A dozen toffee-dipped trees, a listing vat, and its resident **Toffit** (see Characters) live aboard it. A reusable recurring device: a place the children (or a future story) might have to go looking for rather than simply sail to.
 
+- **Biscuit Town (expanded in "The Biggest Gingerbread Man in the Isles")** — also home of **Snap Day**, the town's yearly festival: the biggest Gingerbread in the Isles is baked and displayed on a barn-door-sized cooling rack in the square, and traditionally "snapped" at sundown so everyone gets a piece for luck. Since the Gingerbread woke up and ran, the tradition now is a **crumb-giving**: the Gingerbread stays whole and hands each townsperson a crumb with a hello. Crumble Hill (a steep hill of crumbs) is where children slide down on biscuit-tin lids. A hedge of shortbread; bunting piped in icing on shortbread flags.
+- **Pizza Port** — a harbour and trading post on the far side of Beans-on-Toast Bay. Quay made of enormous round pizza bases laid edge to edge; boats tied up with stretched mozzarella; pepperoni coins as currency; stalls selling things on sticks. Gate sign: "Tolls Payable Before Panic". A **cheese-pull bridge** (a mozzarella cobweb on a great wooden crank) spans the red, bubbling harbour; it must never be hurried, and can be wound back as far as it will go and released as a slingshot (done once; a goat tried it before).
+
 ### Travel & the Fleet
 **The glowing puzzle piece is a required bookend, every story.** Confirmed favourite live-audience beat (one of the kids specifically lights up for it) — every story opens with the piece warming and glowing gold to pull Felix and Alex into the Isles, and closes with it glowing again to pull them home, timed so almost no time has passed in the real world. Don't skip or shortcut either end, even for a story that's otherwise a quick, single-location outing.
 
@@ -68,6 +71,11 @@ The core family cast (Felix, Alex, Elfine, Marion, Mummy, Dad) is tracked in the
 
 - **Marzipan** — an enormous, unhurried, kindly giant sloth who lives in a warm golden cavern beneath **Satin Slopes / Rattlenut Rocks**, tending the shared freshwater spring both villages draw from. Works the well's nodding arm personally, every day, for both villages equally — entirely unthanked and unvisited, since nobody had ever followed the sound of the well down to find out what made it move. Speaks slowly, in an unhurried, yawn-like cadence; doesn't mind being interrupted, just carries on once the interruption passes. Sad-before-bad pattern (craft rule 1a-adjacent, unthanked/lonely category, same shape as Mizzel) — resolved not by fixing a mistake but by the villages simply learning Marzipan exists and beginning a yearly thank-you tradition (a smooth almond and a crunchy almond left at the well's edge). A good candidate for a future irregular revisit.
 - **Toffit** — a stocky, sticky-handed toffee-apple picker who spent thirty years working Toffee Apple Orchard, and knowingly refused to evacuate when his patch of the grove began to sink, choosing to take his chances rather than leave his trees. Survived the sinking by building himself a hardened toffee shell on the spot and climbing inside just before the patch went under — a real gamble on his own craft skill, not a guaranteed plan, and something the children watched him do rather than a fact revealed after the fact. Now lives aboard **Amberdrift**, the wandering island his choice created, working toward becoming its travelling toffee-seller (a sail, or perhaps an engine, in progress). Cheerful, immovable once decided, entirely unbothered by how things turned out compared to how he expected. Lightly sketched — a good candidate to develop further in a future Amberdrift story.
+
+- **Humphrey Gingerly** — the enormous Festival Gingerbread of Biscuit Town's Snap Day, who woke up this year without anyone knowing why. Three gumdrop buttons (one sits slightly sideways since being fished out of Pizza Port harbour), white icing eyebrows, a slightly crooked piped smile. Says hello first, to everyone, and means it. Sheds crumbs when he laughs. Ran from the word "division", then chose to stay. Now the Guest of Honour on a gentler Snap Day. Light recurring potential: a friendly, gentle giant in Biscuit Town.
+- **Mr Rusk, Snapping and Seconds** — a fox in a waistcoat, Biscuit Town's official Snapper for eleven years. Can clear a post office in one leap, speaks in stiff officialese when panicked, and had been left standing in a three-yard circle of empty cobbles at every festival because of his job. Sad-before-bad, "avoided because of the job title" category: he isn't alone, he's surrounded, and nobody sits next to him. Now "Mr Rusk, Sitting", at the Guest of Honour's right hand. Recurring potential as a very fast, very correct, increasingly warm helper.
+- **Mrs Garibaldi, Head Baker and Opinions** — Biscuit Town's short, round, brisk head baker, with a rolling pin carried like a sword and an opinion on everything. Bakery sign: "Garibaldi's. Bakers. Established Before You."
+- **Mr Capers, Tolls and Tutting** — Pizza Port's small, very broad toll-keeper in a tall paper hat, who tuts constantly (the tuts have meanings) and hasn't had a hello since "the Tuesday before last". Knees gone, so he handed the bridge crank to Felix and Alex. Keeps a drawer of lost buttons.
 
 ---
 
@@ -113,7 +121,92 @@ The core family cast (Felix, Alex, Elfine, Marion, Mummy, Dad) is tracked in the
 7. **Write exactly two short postscripts.** P.S. = a laugh/comic coda. P.P.S. = a quiet emotional or reflective beat, often a line from Mummy or between the kids, landing the story's takeaway without preaching it as a moral.
 8. **Let characters live the affirmation through plot; never state it as a narrator's moral.** The lesson (persistence, honesty about fear, working together, fixing your own mistakes, the right order matters, legacy/starting something you can't finish, doing everything right and it still not working out) should be something a character does or says in scene, not a closing summary sentence.
 
+**Long-form stories** add rules L1–L11 (see *Long-Form Stories*); they refine, never override, rules 1–8. The one to watch: a long-form "taker" may be spectacular (a shapeshifter, a chase) but rule 1 still holds: no one acts with intent to cause real harm.
+
 **On precedence:** rules 2–4 (tension variety, character jobs, scope) are soft constraints to satisfy together during outline review, not a strict hierarchy — if a choice serves one better at a small cost to another, that's an acceptable trade. Rules 1, 5, 6, 7, and 8 are closer to hard requirements and shouldn't be traded away. Rule 2a is an occasional, deliberate exception to rule 2's default jeopardy shape, not a competing rule — invoke it on purpose for a specific story, don't drift into it by default.
+
+---
+
+## LONG-FORM STORIES (THE ~30-MINUTE STORY)
+
+The standard stories above run 15–20 minutes narrated. The boys now enjoy ~30-minute stories, so long-form is a first-class format here: **~4,200–5,000 words, ~28–33 minutes narrated** (single-voice TTS runs roughly 145 words/minute). Longer is not "a standard story stretched" — it needs more *structure*, not more of the same. This section is the blueprint; the craft rules below still apply on top of it.
+
+**Reference models** (in `reference/`, both ~4,500 words, 16–17 chapters): *The Frost Who Asked "Are You Warm?"* and *The Singer Who Sailed the Pond*. They come from the separate Stories repo — school setting, different cast and canon. **Borrow the craft, never the characters, setting, or lore** (no Baba Yaga, Willow, Father Frost etc. in the Isles).
+
+### What those two stories do (and how to translate it)
+
+| Technique | In the references | In the Isles |
+|---|---|---|
+| **Micro-chapters** | 16–17 short titled chapters, one scene each, ~200–350 words | Same. Every chapter is a natural pause point for the listener and (see below) a clean narration chunk |
+| **A folklore anchor** | A "fact" chapter teaches a real myth (Morozko; the Kalevala's Sampo) in kid-sized language, then the story plays with it and *twists* it | Anchor each story in a real food/feast/hospitality tale (see ideas below), explained in plain, concrete terms, then inverted or completed |
+| **A refrain that changes meaning** | "Are you warm?" opens the story, then returns asked *by the children*, answered honestly, and finally asked back by the child who was rude | One short, sayable phrase from chapter 1 that returns 3+ times; its final use flips who asks or answers |
+| **Braided threads** | Quest/rescue (A) braided with a smaller human thread — a rude child, a girl who melts in spring (B) | One external problem plus one small human thread that gets its own quiet chapter *after* the climax |
+| **Plant, use, lose** | The mill is shown working in chapter 3, stolen in chapter 5 | The central object is introduced *and used on the page* within the first ~20%, before it's taken or broken |
+| **Obstacle ladder** | Pike (ask nicely + sing), guards (lullaby), nine locks (skill), eagle (tug of war) | 3–4 obstacles, each a different flavour and a different virtue (see L6) |
+| **Handover** | The old singer's hands freeze; the twins take the instrument — first note wobbly, third note clear | The wise helper hits a limit and Felix and Alex take over something new, with a believable learning beat |
+| **Sympathetic taker with real menace** | Inspector Lowhee steals the Sampo and turns into an enormous eagle, then admits "nobody ever invites the North" | Real spectacle is allowed; real harm is not. The reason is sad or understandable and gets spoken plainly |
+| **The break that becomes the meaning** | The Sampo shatters and never returns; the "real" magic was everyone turning the handle together | Pairs naturally with rule 2a: the thing is lost, and the reframe is the story's heart |
+| **Grown-up wit** | Badges with job titles ("Choir and Sauna"), deadpan officials, a bear in the car park | Light, deadpan comedy for the reading parent, never at the expense of the child's momentum |
+
+### The shape: ~16 chapters
+
+Word budgets are guides, not quotas. Each chapter has **one scene, one beat, one job**, and ends on a turn — a line, a question, an image — that pulls the listener into the next.
+
+1. **Open (chapters 1–3, ~20%).** The piece warms and glows (required bookend) → arrival → a strange new figure/place/question that sets the *refrain*. Within these chapters: the **fact chapter** (the folklore anchor) and the **plant** (the central object shown working).
+2. **Inciting turn (chapters 4–5, ~12%).** The object is taken, broken, or lost, or someone is in trouble. Stakes become personal for a named resident.
+3. **Quest (chapters 6–10, ~28%).** Travel and the obstacle ladder. Include at least one calm, funny, low-intensity chapter between set-pieces.
+4. **Climax (chapters 11–13, ~20%).** The handover, then the biggest beat in the story (rule 2's "don't spend the biggest beat early" applies with extra force over 30 minutes).
+5. **Resolution (chapters 14–16, ~20%).** The sympathetic reason spoken aloud → the kids' concrete, doable repair task → the reveal of what the magic *really* was → the B-thread's quiet chapter.
+6. **Coda.** P.S. (comic) and P.P.S. (quiet), then the puzzle piece glowing them home and the piece snapping into the home puzzle. A "hook" for next time is optional: a blank patch appearing on Nib's map, or a new piece glowing.
+
+### Long-form rules
+
+- **L1. Chapters are the unit of pacing.** 150–400 words each, one scene each. If a chapter has two scenes, split it; if it has no turn at the end, rework it. Keep each under ~350 words where practical so it fits one ElevenLabs batch (2,000-character limit) without splitting mid-scene.
+- **L2. One refrain, used on purpose.** A short phrase or question, kid-sayable, that is *asked* first by someone with authority or mystery, *returns* with the children's own spin, and *lands* last with a changed meaning. It is the long-form version of rule 8: the lesson lives in the repeated line, never in a narrator summary.
+- **L3. Folklore anchor, explained in one chapter, then played with.** Give the tale in plain concrete terms (rule 6), in the voice of someone natural to deliver it (a resident elder, Nib's map notes, a story Mummy or Nana told before the piece glowed). Then do something with it: invert it, complete it, or show the real story underneath. Never retell it for its own sake. Ideas that suit this world: *Stone Soup*, *The Gingerbread Man*, the land of Cockaigne (a land where food is free and everywhere), the cornucopia/horn of plenty, *The Magic Porridge Pot*, the Sampo-style endless mill, the feast that needs every guest to bring something.
+- **L4. Two threads, braided.** The A-thread is the external problem; the B-thread is a small human situation (a boastful newcomer, a resident who can't be with the others, someone afraid of an ending). B starts early, takes a back seat during the quest, and gets its quiet payoff *after* the climax.
+- **L5. Plant by chapter 3, pay off in the last third.** Long stories give more room to forget a plant. At outline stage, list every plant with its payoff chapter.
+- **L6. The obstacle ladder.** 3–4 obstacles, each a different *flavour* of tension (rule 2) **and** a different *virtue or skill*: at least one solved by courtesy or kindness rather than force, one by a specific practised skill, one by pure teamwork. No two in a row solved the same way. Felix and Alex stay themselves (no growth arc, per the Characters section); the *obstacles* vary, not the boys.
+- **L7. The handover needs a learning beat.** If the wise helper hands Felix and Alex a task they've never done, it can't succeed at once — first note wobbly, third note clear, and the helper says why they can (e.g. "a song is just a feeling put in order"). Same logic as the Fleet craft rule.
+- **L8. A taker, never a harmer.** The antagonist-shaped character may be big, loud, a shapeshifter or a chaser, because spectacle is good fun. But their act is *taking* (hoarding, keeping, claiming), never hurting; their reason is one a child can say back ("nobody invited them"); and the resolution is a conversation plus a small, concrete job. Craft rule 1a's tone guardrail applies in full: they stay likeable, corrected on one behaviour, never shamed. Jeopardy beats still follow rule 2's calibration (environment or chance, children solve it, relief or laughter, one breath-catching beat).
+- **L9. Light and shade, at length.** Over 30 minutes, check for: at least two pure-comedy chapters, at least one quiet/tender chapter before the climax, and no run of three chapters at the same intensity. This is rule 4's light-and-shade check with a higher bar.
+- **L10. Give the draft texture on the first pass.** The Sweet Chain's first drafts came in ~1,150 words against a ~1,800 target because dwell-time beats were sketched thinly. For long-form, write the "nothing is happening yet" chapters (arrival, a funny local, a smell, a meal) with real texture the first time; don't rely on a later expansion pass.
+- **L11. Felix and Alex remain the baseline.** The references have a full class of children; the Isles version doesn't need them. Extra length comes from **more places, more residents, more obstacles**, not more family. Bring in Elfine, Marion or Mummy only if a specific chapter needs them (rule 3 still applies to anyone present).
+
+### Narrative voice: the silly register
+
+The boys love the *comic style* of the reference stories, separately from their school setting. It layers on top of the Isles' existing warm, sensory narration (the toffee-scented openings, Felix licking things); it doesn't replace it, and it works in any length of story, not only long-form. Its ingredients:
+
+- **Deadpan understatement.** The narrator reports absurd things flatly and never winks. ("He knelt down, which took a while because of his knees." / "'Two minutes,' said Posy. 'Which is a lot.'")
+- **An absurd detail, left unexplained.** Something ridiculous just *is* there, and a character's single question gets a "Sh." in reply. (*"Why's there a bear?" "Ssh."*) In the Isles this might be a dignified fish finger queueing patiently for nothing, or a gravy-boat crew solemnly saluting a sandwich.
+- **Labels and job titles as gags.** Characters get a badge-style deadpan tagline when first met ("Mister Vyno, Choir and Sauna"). Isles equivalents: shop signs, name-cards, hand-lettered notices ("Mrs Cornetto, Cones and Complaints").
+- **Officious grown-ups with a funny, quotable line.** ("Tea is for people who have time to be warm.") Good fodder for the reading parent and a clean place to hide a plant.
+- **Rule of three with a twist on the third**, and **literal-minded child logic** ("I'm warm and I've got a snowman." / "Is it naughty and nice?").
+- **Short sentences, short paragraphs, one-line punchlines.** This also suits single-voice narration, where the joke must live in the text rather than in a performance (see `persona-review`'s narration-format persona). Keep scene-setting sentences long and lush at the *start* of a chapter, then tighten once the jokes begin.
+- **Funny right up to the tender beat, then plain.** The reference stories pivot from comedy to feeling with one flat sentence and no joke afterwards ("'Nobody has asked me that,' said Father Frost, 'in a hundred years.'"). Never undercut a real emotional beat with a gag.
+- **Nobody knows they're funny.** Residents are completely serious. The comedy comes from the narrator's calm and the kids' reactions.
+
+**Keep Isles canon where it conflicts:**
+- Third-person narrator, not the references' first-person "we". Felix and Alex stay distinct per `character-voice-guide` (Felix impulsive and physical, Alex observant, riddling); no automatic "said both" duet lines unless a story earns one on purpose.
+- No guest cast imported from the references (no class, teachers, mythical cameos from another canon).
+- The silliness never overrides rule 1's tone guardrail: likeable characters, no one shamed, jeopardy still calibrated.
+
+### Long-form checklist (run at outline stage and again at final read)
+
+- [ ] ~16 chapters, each with one beat and a turn at the end; a chapter-by-chapter list with word budget and tension-type tag exists
+- [ ] Refrain appears in chapter 1, returns 3+ times, and flips at the end
+- [ ] Folklore anchor delivered in one short concrete chapter, then twisted or completed
+- [ ] Central object shown working before it goes wrong (plant by ~20%)
+- [ ] Obstacle ladder: no two adjacent obstacles share a flavour or a solution
+- [ ] Handover has a learning beat
+- [ ] Taker is sympathetic, menace stays spectacle (no real harm), reason spoken plainly, repair job concrete
+- [ ] Biggest beat is in the final third, not the middle
+- [ ] B-thread gets a quiet chapter after the climax
+- [ ] Comic register present (deadpan, an unexplained absurd detail, a title/label gag, short punchline lines) without undercutting the tender beats
+- [ ] Puzzle-piece glow opens *and* closes; P.S. and P.P.S. both present
+- [ ] Chapters break with `• • •` (the narration pipeline splits on this), and no heading text will be read aloud unintentionally
+
+**Chapter titles are optional.** The reference stories title each chapter ("Part Five. Taken for Inspection"). `audio-pipeline/narrate.mjs` splits scenes on `• • •` only and has no heading handling, so a title line would be narrated as spoken text. Either write chapters with `• • •` breaks and no titles (matches existing Isles stories), or add heading handling to the pipeline first. Also avoid the word "Part" for internal chapters: it's already used for serialized series (*The Sweet Chain, Part Two*).
 
 ---
 
@@ -129,13 +222,15 @@ For a new story:
 4. **Run at least one full review pass, sometimes two in sequence** (second pass checks the first pass's suggested fixes against the *whole* story before applying them — this catches suggestions that look good in isolation but would over-stuff or contradict something elsewhere).
 5. **Apply only the fixes that survive the second pass.** Not everything flagged needs fixing — distinguish "real gap" from "minor and net-neutral."
 6. **For long/ambitious stories, draft in sections and review each section as it's written**, then do one final full read-through pass at the end to check overall flow, plants/payoffs, and character balance across the whole thing (this is how Part 2 / The Great Kitchen was built).
-7. **Word count is a target, not a hard limit** — several of the best stories (Ice Cream Land, Chocolate Land) hit their mark around 1,400-1,450 words; the ambitious two-part Nib arc ran to ~2,400 and ~2,800 words because the story genuinely needed the space (proper world-building, character depth, one real jeopardy set-piece, an earned emotional climax). Err toward giving a story the length it needs rather than trimming for a round number.
+7. **Word count is a target, not a hard limit** — several of the best stories (Ice Cream Land, Chocolate Land) hit their mark around 1,400-1,450 words; the ambitious two-part Nib arc ran to ~2,400 and ~2,800 words because the story genuinely needed the space (proper world-building, character depth, one real jeopardy set-piece, an earned emotional climax). Err toward giving a story the length it needs rather than trimming for a round number. **Long-form (~4,200–5,000 words, ~30 minutes) is now a deliberate target for the next stories** — see *Long-Form Stories* above for its structure.
+8. **For long-form, outline by chapter before any prose.** A numbered list of ~16 chapters, each with a one-line beat, a tension-type tag (problem / physical / social-emotional / mystery / comedy / calm), a rough word budget, and the plant/payoff map. Run the outline through `persona-review` and `world-consistency-check` as usual; the chapter list makes the "no repeated beat-type back to back" check mechanical. Then draft in thirds (open + inciting; quest; climax + resolution + coda), reviewing each third, and finish with one full read-through.
 
 ---
 
 ## FORMAT VARIANTS TRIED (all successful, worth reusing)
 
-- **Standard read-aloud story** — straight narrative, ~800–3000 words depending on ambition.
+- **Standard read-aloud story** — straight narrative, ~800–3000 words depending on ambition (15–20 minutes narrated at the upper end).
+- **Long-form story** — ~4,200–5,000 words (~30 minutes narrated), ~16 short chapters, a folklore anchor, a recurring refrain, and braided A/B threads. Full blueprint in *Long-Form Stories*. Modelled on the two stories in `reference/`. First used in the Isles with *The Biggest Gingerbread Man in the Isles*.
 - **Interactive "choose together" version** — same story skeleton, but paused at decision points where the kids pick what happens next live. Wrong choices trigger an in-world "reset" (the jigsaw piece flickers and rewinds time to the same choice point) rather than a dead end or real failure — keeps it low-stakes and encourages trying again. Best used for stories built around a genuine order-dependent puzzle.
 - **Multi-part serialized arc** — a bigger mystery (Nib's map, the unexplained symbol) seeded in Part 1 and paid off properly in Part 2, with its own character arc (Nib) running underneath the episodic adventures.
 - **Vehicle-learning story** (new format, not yet used) — a story built around Felix and/or Alex learning a new mode of travel from scratch (wobbling, falling in, slowly improving), ending with them earning proper use of it for future stories. First candidate: learning to sail or kite-surf.
@@ -144,8 +239,8 @@ For a new story:
 
 ## IDEAS NOT YET USED (parking lot for future stories)
 
-- Toffee Apple Orchard (sticky terrain, good for a "getting stuck" jeopardy)
-- Pizza Port (harbour/trading-post hub, cheese-pull bridges, pepperoni-coin currency)
+- ~~Toffee Apple Orchard~~ (used)
+- ~~Pizza Port~~ (visited in "The Biggest Gingerbread Man in the Isles"; more of its harbour could still be explored)
 - Custard Cream Castle (could house a "wise elder" character)
 - Marshmallow Marsh (cosy, fireside/toasting theme)
 - More of the Great Kitchen's "mistake islands" (burnt toast, single-strawberry islet, steam-teapot) could recur or get their own rescue story

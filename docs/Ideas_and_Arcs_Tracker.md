@@ -12,7 +12,7 @@ A checklist companion to the World Guide, Islands Index, and Story Archive. Tick
 ## STANDALONE STORY SEEDS (single-episode, no long-arc weight required)
 
 - [x] Toffee Apple Orchard — used in Story #9, "Toffee Apple Orchard" (developed well beyond the original seed: a jammed toffee vat and real, failed rescue attempt sink part of the orchard and one resident with it, before it surfaces as Amberdrift, a new wandering island — first use of new World Guide craft rule 2a)
-- [ ] Pizza Port — harbour/trading-post hub, cheese-pull rope bridges, pepperoni-coin currency
+- [x] Pizza Port — used in Story #11, "The Biggest Gingerbread Man in the Isles" (harbour/trading post with cheese-pull bridge, pepperoni coins and Mr Capers; the second half of a Gingerbread Man chase that also revisited Biscuit Town and Beans-on-Toast Bay)
 - [ ] Marshmallow Marsh — cosy fireside/toasting theme, communal fire-lighting mechanic, shy marsh-keeper who thinks nobody cares anymore
 - [ ] Sherbet Shoals / Fizzy Pop Falls — fizzing rockpools, a tireless Fizz-Keeper who needs help sharing the load
 - [ ] Custard Cream Castle — standalone version: a wise-elder figure and a castle held up partly by memory (can also seed a longer legacy arc later)
