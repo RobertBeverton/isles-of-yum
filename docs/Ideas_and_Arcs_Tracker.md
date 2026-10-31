@@ -44,8 +44,8 @@ A checklist companion to the World Guide, Islands Index, and Story Archive. Tick
 - [ ] Nib's map shows a *new* blank patch at the start of a future story as a reusable hook
 - [ ] A second slow-burn "seed" object/phrase (parallel to the map symbol) planted across multiple stories before its meaning is revealed
 - [ ] More Great Kitchen "mistake islands" recurring or getting their own rescue story (burnt toast, single-strawberry islet, steam-teapot)
-- [ ] The Frozen Fruit Sound — smoothie/slushy travel-route sea (strawberry, mango, peach, watermelon, raspberry, grape, pineapple currents) used as connective texture between islands rather than a destination
-- [ ] Amberdrift (introduced in Story #9) — a free-floating island that's never in the same spot twice; a future story could have the kids specifically go looking for it (rather than sailing to a fixed place), or have it turn up unannounced as a texture beat elsewhere
+- [x] The Frozen Fruit Sound — used in Story #12, "Wherever Amberdrift Got To" (visited on-page as a mystery to read; could still be connective texture elsewhere): smoothie/slushy travel-route sea (strawberry, mango, peach, watermelon, raspberry, grape, pineapple currents) used as connective texture between islands rather than a destination
+- [x] Amberdrift (introduced in Story #9) — used in Story #12, "Wherever Amberdrift Got To" (the kids go looking for it; Cockaigne anchor; Fleet sail upgrade). Still available: a free-floating island that's never in the same spot twice; a future story could have the kids specifically go looking for it (rather than sailing to a fixed place), or have it turn up unannounced as a texture beat elsewhere
 
 ## FORMAT VARIANTS TO REUSE
 

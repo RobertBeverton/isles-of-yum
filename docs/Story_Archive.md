@@ -119,3 +119,22 @@ A running log of every story written in this world, in order, with a short summa
 - Rusk is the third "lonely or unthanked" character (Mizzel, Marzipan, Rusk). He is differentiated by being surrounded but avoided because of his job title, and the fix is a hello and a seat. Another character of that shape should probably wait.
 - Mid-story piece fizzle was used (chapter 7) as one line; it didn't need more than that.
 - Not narrated yet. If narrated later, the mp3 must be `stories/the-biggest-gingerbread-man-in-the-isles.mp3`. The pipeline splits on `• • •` and this story has no chapter heading lines.
+
+---
+
+## 12. Wherever Amberdrift Got To
+**Cast:** Felix, Alex (no family on-page). Residents: Nib, Captain Crispin, Toffit, Commodore Bollard. **Length:** ~4,980 words, 16 chapters plus P.S./P.P.S. coda (~34 min narrated). **Islands Featured:** Amberdrift (primary), Crumpet Quay (primary, first appearance), Nib's sandwich island (passing, bookends), Fish Finger Reef (passing, sailing lesson), the Frozen Fruit Sound (primary, first on-page visit), Porridge Narrows (passing, first appearance), Breadstick Rock (passing, first appearance).
+**Summary:** Word has spread that the wandering island Amberdrift is the legendary land of Cockaigne. A Harbour Authority Commodore with twelve bread-roll-named tugs sets out to moor it at his quay. Felix and Alex learn to sail with Captain Crispin and race to warn Toffit. Alex reads the Frozen Fruit Sound's currents while Felix tastes them; they share their toffee apples with a porridge-eating crowd of seekers; and they tack against a headwind alone after Crispin gets soggy. They tangle all twelve tugs in their own tow lines. The Commodore's reason (he lost his own little red boat at six) turns out to be answered by Toffit's collection of drifted things. Cockaigne is "somewhere you can't moor, because it turns up when you need it". The boys teach Toffit to sail. Nib inks Amberdrift as a dotted loop labelled "wherever it's got to".
+**Second long-form story in the Isles**, folklore anchor *The Land of Cockaigne*; refrain "Where is it supposed to be?" answered "Wherever it's got to".
+**What worked:**
+- The taker was deliberately a different shape from Rusk (overprotective and rule-bound, not lonely and avoided), and his reason was a concrete lost object that the story had planted in chapter 3, which made the emotional peak land without explanation.
+- A real shared search (read the sea, follow the steam) gave the quest a mystery flavour that the previous long-form story's chase didn't have. Felix tasting the currents and Alex deducing from them was a good two-hander.
+- The Fleet step "a sail added" got a proper learning beat twice (Crispin's lesson, then the handover tack: wobbly, stalled, clear), with Crispin's one rule ("a little left, a little right") paying off in the handover, the climax and the Toffit coda.
+- The "probably" gag: the sea-chart note, the seekers' line, the café name and the berth sign all echo each other and carry the story's meaning without a narrator moral.
+- A moderate jeopardy beat (the boys' boat nearly squeezed between two tugs) was caused by chance, solved by the boys leaning out, and ended in laughter followed by a breath-catching beat.
+**What to watch for next time:**
+- First draft ran ~5,300 words and needed ~300 words of cuts to land at ~4,980. The overshoot came from chapters 1, 4 and 8, where too many small comic details piled up. Budget the funny details per chapter.
+- Cutting sentences left two joined-quote fragments in chapters 2 and 9 that only the read-through caught. After trimming, reread each changed paragraph.
+- Toffit was first written arriving at Crumpet Quay under his own sail before the boys taught him to sail. Check the order of any "learned skill" payoff against where the skill is first used.
+- This story and *The Biggest Gingerbread Man in the Isles* share a shape (a chase, a learned vehicle skill, a slapstick tangle). Vary the structure of the next long-form story: for example no pursuit, no vehicle, or an ensemble set-piece.
+- Not narrated yet. If narrated, the mp3 must be `stories/wherever-amberdrift-got-to.mp3`.
