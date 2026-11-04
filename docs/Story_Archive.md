@@ -118,7 +118,7 @@ A running log of every story written in this world, in order, with a short summa
 - A small joke ("a lot of buttons involved") was sitting inside the tender hello in chapter 14 and was cut. Check every tender beat for a stray gag.
 - Rusk is the third "lonely or unthanked" character (Mizzel, Marzipan, Rusk). He is differentiated by being surrounded but avoided because of his job title, and the fix is a hello and a seat. Another character of that shape should probably wait.
 - Mid-story piece fizzle was used (chapter 7) as one line; it didn't need more than that.
-- Not narrated yet. If narrated later, the mp3 must be `stories/the-biggest-gingerbread-man-in-the-isles.mp3`. The pipeline splits on `• • •` and this story has no chapter heading lines.
+- Narrate with `npm run narrate` from the Stories repo. Audio is hosted on R2 and the story carries `audioUrl`. The narrator splits scenes on `• • •` and this story has no chapter heading lines.
 
 ---
 
@@ -137,4 +137,4 @@ A running log of every story written in this world, in order, with a short summa
 - Cutting sentences left two joined-quote fragments in chapters 2 and 9 that only the read-through caught. After trimming, reread each changed paragraph.
 - Toffit was first written arriving at Crumpet Quay under his own sail before the boys taught him to sail. Check the order of any "learned skill" payoff against where the skill is first used.
 - This story and *The Biggest Gingerbread Man in the Isles* share a shape (a chase, a learned vehicle skill, a slapstick tangle). Vary the structure of the next long-form story: for example no pursuit, no vehicle, or an ensemble set-piece.
-- Not narrated yet. If narrated, the mp3 must be `stories/wherever-amberdrift-got-to.mp3`.
+- Narrate with `npm run narrate` from the Stories repo. Audio is hosted on R2 and the story carries `audioUrl`.

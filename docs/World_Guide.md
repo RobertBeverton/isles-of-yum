@@ -215,7 +215,7 @@ The boys love the *comic style* of the reference stories, separately from their 
 - [ ] Puzzle-piece glow opens *and* closes; P.S. and P.P.S. both present
 - [ ] Chapters break with `• • •` (the narration pipeline splits on this), and no heading text will be read aloud unintentionally
 
-**Chapter titles are optional.** The reference stories title each chapter ("Part Five. Taken for Inspection"). `audio-pipeline/narrate.mjs` splits scenes on `• • •` only and has no heading handling, so a title line would be narrated as spoken text. Either write chapters with `• • •` breaks and no titles (matches existing Isles stories), or add heading handling to the pipeline first. Also avoid the word "Part" for internal chapters: it's already used for serialized series (*The Sweet Chain, Part Two*).
+**Chapter titles are optional.** The reference stories title each chapter ("Part Five. Taken for Inspection"). A `## Part N. Title` heading is read aloud as a spoken line and gives the app its part list; scenes still break on `• • •`. Write chapters with `• • •` breaks and no titles (matches existing Isles stories) or with `## Part N. Title` headings, as wanted. Also avoid the word "Part" for internal chapters: it's already used for serialized series (*The Sweet Chain, Part Two*).
 
 ---
 
