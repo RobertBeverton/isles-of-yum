@@ -14,5 +14,5 @@ Short version: outline first, run the two-persona check (five-year-old listener 
 editor) on the outline before drafting, write the full draft, run at least one
 full review pass, then lock.
 
-For narration, see `audio-pipeline/SPEC.md` for the design and
-`audio-pipeline/narrate.mjs` for the implementation.
+For narration, see `narration/` (this world's respellings) and the narrator
+docs in the Stories repo (`../Stories/narrator/README.md`).

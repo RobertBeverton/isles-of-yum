@@ -1,54 +1,43 @@
 ---
 name: audio-narration-prep
-description: Use when a finished, approved Isles of Yum story needs to be prepared for narration via ElevenLabs (or similar multi-voice text-to-speech). Converts finished story markdown into the batched narrator/character turn format required by the audio pipeline. Do not use on unfinished drafts — stories should be fully written and reviewed first.
+description: Use when a finished, approved Isles of Yum story is about to be narrated. A pre-flight checklist before running the Stories repo's narrator: confirm the story is done, check its scene breaks and headings, add respellings for names the voice may mangle, dry-run, narrate, upload and commit. Do not use on unfinished drafts.
 ---
 
 # Audio Narration Prep
 
-Prepares a finished story for the ElevenLabs multi-voice narration pipeline.
-This is a mechanical conversion step, not a creative one — the story should
-already be finished, reviewed, and finalized in `docs/Story_Archive.md`
-before this skill runs.
+A pre-flight checklist for narrating a finished story. The story must already
+be finished and reviewed. The narrator itself lives in the Stories repo
+(`../Stories/narrator/README.md`); this repo only holds the story and its
+narration settings.
 
-Full technical spec (API constraints, batching rules, voice-mapping format)
-lives in `audio-pipeline/SPEC.md` in the repo root — read that before doing
-this conversion, it has the authoritative detail on the 2,000-character
-batch limit, voice_id mapping, and the suggested parsing approach.
+## Checklist
 
-## Filename convention (must match, always)
+1. **Finished?** Confirm the story is finished, has passed `persona-review`,
+   and has its entry in `docs/Story_Archive.md`.
+2. **Format.** The story uses `• • •` scene breaks, with `## Part N. Title`
+   headings only where wanted. A heading is read aloud as a spoken line and
+   gives the app its part list.
+3. **Respellings.** Add any names the voice might mangle to
+   `narration/pronunciations.json` as `"Written": "Spoken"`, one line each
+   (whole words, case-sensitive). Names to listen for so far: Marzipan,
+   Mizzel, Crispin, Nib. Add them after first hearing a narrated story, not
+   before.
+4. **Dry run.** From a Stories checkout:
+   `npm run narrate -- ../isles-of-yum/stories/<story>.md --dry-run`
+   Read the output: it is exactly what the voice will say. No key, no cost.
+5. **Narrate, then host.** Run the same command without `--dry-run` (needs
+   `ELEVENLABS_API_KEY` and ffmpeg; spends credits; never in CI), then
+   `npm run upload-audio -- --apply --world isles-of-yum --story <story>`.
+6. **Commit** the story's changed front matter here (`audioUrl`,
+   `audioDuration`, `parts`). Never commit an mp3.
 
-The site finds a story's audio by filename alone: `stories/some-story.md`
-plays `stories/some-story.mp3`, colocated in the same folder, no front matter
-required. When this skill or the pipeline script produces the final MP3, name
-it and place it to match the story's own filename exactly — same basename,
-same folder. Never invent a different name (no title-cased, spaced, or
-punctuated version of the title) — that breaks the auto-detection and leaves
-the story showing no audio player. If the audio genuinely can't share the
-story's filename, use an explicit `audio: "other-name.mp3"` front-matter field
-instead, but that should be the rare exception, not the default.
+## One voice per world
 
-## What this skill does
+There is one voice per world for now. Multi-voice narration was never set up:
+the old `voice_map.json` held only placeholder IDs. If it is ever wanted, it
+gets added centrally in the Stories repo's narrator, not here.
 
-1. Confirms the target story file exists in `stories/` and is the finished
-   version (check `docs/Story_Archive.md` has an entry for it).
-2. Reads `audio-pipeline/voice_map.json` (or flags that it doesn't exist yet
-   and needs to be created — see SPEC.md for the format) to get the
-   character → voice_id mapping.
-3. Parses the story into narration vs. dialogue turns, following the
-   approach in SPEC.md. Flags any low-confidence dialogue attribution for
-   manual review rather than silently guessing.
-4. Before finalizing, run a quick check against `persona-review`'s
-   🎧 narration-format persona notes for this story, if that review was
-   done during writing — any beats flagged there as relying on vocal
-   performance should get extra attention in how they're split into turns.
-5. Batches turns to stay under the character limit per SPEC.md, preferring
-   to break at scene boundaries (`• • •` markers).
-6. Outputs the batched turn list in the format the pipeline script expects
-   (see SPEC.md's suggested CLI/data shape).
+## Filenames
 
-## What this skill does not do
-
-Does not call the ElevenLabs API itself or produce audio — that's the job
-of the actual pipeline code described in SPEC.md. This skill produces the
-input that code consumes. If that pipeline code doesn't exist yet in the
-repo, say so clearly rather than assuming it's there.
+A story's path is its slug for listeners' saved progress. Never rename, move or
+delete a story file.

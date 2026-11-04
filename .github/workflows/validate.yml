@@ -1,0 +1,42 @@
+name: Validate world data
+
+# Checks this world's stories and lore against the Stories app's contract.
+# It does not build or deploy a site; the Stories repo does that.
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out this world repo
+        uses: actions/checkout@v4
+        with:
+          path: isles-of-yum
+
+      - name: Check out the Stories repo alongside it
+        uses: actions/checkout@v4
+        with:
+          repository: RobertBeverton/Stories
+          ref: main
+          path: Stories
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: Stories/package-lock.json
+
+      - name: Install the Stories repo's dependencies
+        working-directory: Stories
+        run: npm ci
+
+      - name: Validate this world
+        working-directory: isles-of-yum
+        run: node ../Stories/scripts/validate-world-data.mjs --strict --world isles-of-yum
