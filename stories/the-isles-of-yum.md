@@ -8,6 +8,7 @@ publishDate: 2026-01-01
 seriesOrder: 1
 draft: false
 audioDuration: 1542
+audioUrl: https://audio.kinly.download/isles-of-yum/the-isles-of-yum.mp3?v=133ba4f9
 ---
 
 It was raining. Not exciting rain, not thunder-and-puddles rain — just the grey, going-on-forever kind that presses its nose against the window and doesn't leave.

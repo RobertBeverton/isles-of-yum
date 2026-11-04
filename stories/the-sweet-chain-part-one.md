@@ -10,6 +10,7 @@ seriesOrder: 1
 publishDate: 2026-09-01
 draft: false
 audioDuration: 786
+audioUrl: https://audio.kinly.download/isles-of-yum/the-sweet-chain-part-one.mp3?v=7c397b04
 ---
 
 "Straight there and straight back," Mummy had said, not looking up from the washing, "I've got my hands full, so no dawdling — and no arguing over who gets the last humbug." Neither boy had promised anything about the humbug.

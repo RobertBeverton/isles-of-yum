@@ -10,6 +10,7 @@ seriesOrder: 1
 publishDate: 2026-01-06
 draft: false
 audioDuration: 1026
+audioUrl: https://audio.kinly.download/isles-of-yum/the-map-makers-map-part-one.mp3?v=fa1d4427
 ---
 
 The jigsaw piece this time wasn't shaped like a place at all. It was shaped like a torn corner of paper, edges rough and uneven, with a tiny scrap of ink on it that looked, if you squinted, like the corner of a map.

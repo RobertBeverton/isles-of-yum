@@ -10,6 +10,7 @@ seriesOrder: 2
 publishDate: 2026-01-07
 draft: false
 audioDuration: 1184
+audioUrl: https://audio.kinly.download/isles-of-yum/the-great-kitchen-part-two.mp3?v=e96a4549
 ---
 
 The jigsaw piece arrived three days later, and everyone knew at once that it wasn't an ordinary one.

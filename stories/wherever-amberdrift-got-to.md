@@ -8,6 +8,7 @@ characters: ["Nib", "Captain Crispin", "Toffit", "Commodore Bollard"]
 publishDate: 2026-10-31
 draft: false
 audioDuration: 1773
+audioUrl: https://audio.kinly.download/isles-of-yum/wherever-amberdrift-got-to.mp3?v=64445110
 ---
 
 The jigsaw piece had been glowing in Alex's pocket since lunch, so quietly that he had assumed it was sunshine. It wasn't. By the time Felix noticed, there was a small gold circle on Alex's trousers, and the leg underneath it was warm.

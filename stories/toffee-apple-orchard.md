@@ -8,6 +8,7 @@ characters: ["Toffit"]
 publishDate: 2026-08-31
 draft: false
 audioDuration: 837
+audioUrl: https://audio.kinly.download/isles-of-yum/toffee-apple-orchard.mp3?v=d10f26b0
 ---
 
 The Toffee Apple Orchard smelled like the inside of a warm oven that had

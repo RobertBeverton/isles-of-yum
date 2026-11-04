@@ -10,6 +10,7 @@ seriesOrder: 3
 publishDate: 2026-09-01
 draft: false
 audioDuration: 1111
+audioUrl: https://audio.kinly.download/isles-of-yum/the-sweet-chain-part-three.mp3?v=dfeadbc7
 ---
 
 Canebrake Grove smelled like nothing they'd smelled at either of the last two islands — not warm and buttery, not dark and smoky, but green and sharp and outdoorsy, the smell of something growing rather than something made. Tall, cane-like stalks stood in rows taller than Mummy, swaying slightly though there wasn't much wind, each one striped in bands of gold and deep brown like a stick of rock grown straight out of the ground.

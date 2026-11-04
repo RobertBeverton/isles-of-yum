@@ -8,6 +8,7 @@ characters: ["Marzipan"]
 publishDate: 2026-08-31
 draft: false
 audioDuration: 1120
+audioUrl: https://audio.kinly.download/isles-of-yum/marzipans-well.mp3?v=1b1eb345
 ---
 
 The sea had been perfectly ordinary blue-green for ages, and then, without anyone quite noticing the exact moment it happened, it wasn't.
