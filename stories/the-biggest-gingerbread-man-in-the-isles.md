@@ -8,6 +8,7 @@ characters: ["Humphrey Gingerly", "Mr Rusk", "Mrs Garibaldi", "Mr Capers"]
 publishDate: 2026-10-31
 draft: false
 audioDuration: 1683
+audioUrl: https://audio.kinly.download/isles-of-yum/the-biggest-gingerbread-man-in-the-isles.mp3?v=7c51f027
 ---
 
 The jigsaw piece had been warm in Felix's pocket since breakfast, and by the time the toast had gone cold it was glowing gold right through his trousers.

@@ -10,6 +10,7 @@ seriesOrder: 2
 publishDate: 2026-09-01
 draft: false
 audioDuration: 595
+audioUrl: https://audio.kinly.download/isles-of-yum/the-sweet-chain-part-two.mp3?v=d0520b5f
 ---
 
 Simmer Slopes announced itself with sound before smell this time, which made a nice change — a low, constant, rolling glug-glug-glug, like the world's largest pot of soup deciding to have an opinion about it.
