@@ -1,0 +1,20 @@
+name: Rebuild Stories site
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  dispatch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ask the Stories repo to rebuild
+        env:
+          GH_TOKEN: ${{ secrets.STORIES_DISPATCH_TOKEN }}
+        run: |
+          gh api --method POST \
+            repos/RobertBeverton/Stories/actions/workflows/build.yml/dispatches \
+            -f ref=main
