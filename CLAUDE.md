@@ -1,6 +1,6 @@
 # Isles of Yum
 
-A story world and writing project for Felix & Alex — bedtime stories set in a
+A story world and writing project for Felix & Alex — stories set in a
 magical food-themed archipelago.
 
 **Read first, always:** `docs/World_Guide.md` — world premise, established

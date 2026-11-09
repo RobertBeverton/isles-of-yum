@@ -2,7 +2,7 @@
 
 **Read the stories: https://robertbeverton.github.io/isles-of-yum/**
 
-A story world and writing project for Felix and Alex: bedtime (and anytime) stories set in a magical, food-themed archipelago. A warm, glowing jigsaw piece pulls the boys through to the Isles, a sea of islands each built around a food a five-year-old would love, and always pulls them home again.
+A story world and writing project for Felix and Alex: stories set in a magical, food-themed archipelago. A warm, glowing jigsaw piece pulls the boys through to the Isles, a sea of islands each built around a food a five-year-old would love, and always pulls them home again.
 
 This repo holds the stories and the world and writing guides behind them. The app that publishes them, the audio hosting and the narrator live in the [Stories repo](https://github.com/RobertBeverton/Stories).
 
