@@ -1,6 +1,6 @@
 ---
 name: story-writing-process
-description: Use when starting, outlining, drafting, or revising a new Isles of Yum story (Felix & Alex bedtime story world). Also use when asked to plan a new arc, brainstorm a story idea, or pick up an in-progress story draft. Orchestrates the full outline-to-final-draft pipeline and calls in other Isles of Yum skills (world-consistency-check, naming-workshop, character-voice-guide, persona-review) at the right points. Do not use for unrelated creative writing outside this world.
+description: Use when starting, outlining, drafting, or revising a new Isles of Yum story (Felix & Alex story world). Also use when asked to plan a new arc, brainstorm a story idea, or pick up an in-progress story draft. Orchestrates the full outline-to-final-draft pipeline and calls in other Isles of Yum skills (world-consistency-check, naming-workshop, character-voice-guide, persona-review) at the right points. Do not use for unrelated creative writing outside this world.
 ---
 
 # Isles of Yum — Story Writing Process

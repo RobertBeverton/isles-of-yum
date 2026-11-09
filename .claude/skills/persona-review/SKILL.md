@@ -32,7 +32,7 @@ teamwork-driven, ends in relief not dread, per World Guide craft rule 2)?
 Relevant whenever the story will be read aloud live by a parent, which is
 most of the time for this project. Ask: is this easy to voice cold, without
 rehearsing first? Are different characters easy to distinguish without
-heavy acting? Is the length right for an actual bedtime slot? Does any joke
+heavy acting? Is the length right for a read-aloud or listen-through? Does any joke
 or beat rely on the reader nailing comic timing on a first read — and if
 so, does the *text itself* carry enough of that timing (dashes, explicit
 "X cut in," a beat description) rather than depending on performance?
